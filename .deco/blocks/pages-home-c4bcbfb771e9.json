@@ -183,6 +183,19 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "teste",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "price:desc",
+          "fuzzy": "automatic",
+          "query": "lavadora",
+          "count": 10
+        }
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
