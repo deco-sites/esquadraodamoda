@@ -1,0 +1,18 @@
+{
+  "__resolveType": "site/apps/deco/vtex.ts",
+  "salesChannel": "1",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  },
+  "platform": "vtex",
+  "account": "maeztraio",
+  "publicUrl": "https://maeztraio.myvtex.com/",
+  "appKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "6a83b451e2a9e6969dcb2d4733f3fdbce0c36c5232cb90840fbda0e97e79d785"
+  },
+  "appToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "8b6f736c01f3dfbf4d279a2056aff2e3c419d5071ae83e7a13fc87af90fbfc8ab2de2f002697b066136ccf9c0fbe4f308892beb0a580e78d9ff949df5481c92d66b1c365c9959172ae25c9579f4d5f327a79774df48338fa606b5492953eae118ec7df838ac1b85caf6cf214a556c318bd6faa48883f592f6787bf78a784140e9b6880943cccde1820ea3d9924c3357e"
+  }
+}
