@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/feminino/casaco",
+    "to": "/deco/feminino/casaco",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

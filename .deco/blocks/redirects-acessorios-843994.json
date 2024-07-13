@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/acessorios/bone",
+    "to": "/s?q=bone&page=1",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

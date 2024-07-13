@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/acessorios/garrafas",
+    "to": "/deco/acessorios/garrafas",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

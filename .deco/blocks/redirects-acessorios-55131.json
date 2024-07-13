@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/acessorios",
+    "to": "/deco/acessorios",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

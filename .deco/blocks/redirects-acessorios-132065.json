@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/acessorios/mochila",
+    "to": "/s?q=mochila&page=1",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
