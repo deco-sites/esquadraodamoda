@@ -44,8 +44,25 @@
       "preload": true
     },
     {
+      "__resolveType": "site/sections/Category/CategoryLayout.tsx",
+      "items": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/cd9b72ba-6ebb-4787-ac37-47c26f557cda",
+          "href": "/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/bf051510-4791-40b0-87e6-bb0691f62a65",
+          "href": "/"
+        },
+        {
+          "href": "/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/d41c24fe-96e9-4293-8866-71a0490af722"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "teste",
+      "title": "Moletons",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
