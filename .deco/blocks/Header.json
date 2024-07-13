@@ -5,33 +5,72 @@
     "items": [
       {
         "@type": "SiteNavigationElement",
-        "url": "/women",
-        "name": "Women",
-        "children": []
+        "url": "/masculino",
+        "name": "Masculino",
+        "children": [
+          {
+            "image": [],
+            "children": [],
+            "name": "Camisetas",
+            "url": "/masculino/camiseta"
+          },
+          {
+            "image": [],
+            "children": [],
+            "name": "Casacos",
+            "url": "/masculino/casaco"
+          }
+        ]
       },
       {
         "@type": "SiteNavigationElement",
-        "url": "/men",
-        "name": "Men",
-        "children": []
+        "url": "/feminino",
+        "name": "Feminino",
+        "children": [
+          {
+            "image": [],
+            "children": [],
+            "name": "Casacos",
+            "url": "/feminino/casaco"
+          },
+          {
+            "image": [],
+            "children": [],
+            "name": "Camisetas",
+            "url": "/feminino/camiseta"
+          }
+        ]
       },
       {
-        "@type": "SiteNavigationElement",
-        "url": "/kids",
-        "name": "Kids",
-        "children": []
-      },
-      {
-        "children": [],
-        "image": [],
-        "name": "Accessories",
-        "url": "/accessories"
-      },
-      {
-        "children": [],
-        "image": [],
-        "name": "Home & Living",
-        "url": "/home-and-living"
+        "url": "/acessorios",
+        "name": "Acessórios",
+        "children": [
+          {
+            "image": [],
+            "children": [],
+            "name": "Garrafas",
+            "url": "/acessorios/garrafas"
+          },
+          {
+            "image": [],
+            "children": [],
+            "name": "Mochilas",
+            "url": "/acessorios/mochila"
+          },
+          {
+            "image": [],
+            "children": [],
+            "name": "Boné",
+            "url": "/acessorios/bone"
+          },
+          {
+            "image": [],
+            "children": [],
+            "name": "Sholder Bag",
+            "url": "/acessorios/sholder-bag"
+          }
+        ],
+        "image": []
       }
     ]
   },

@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/feminino/camiseta",
+    "to": "/deco/feminino/camiseta",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

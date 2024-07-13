@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/casaco",
+    "to": "/deco?sort=price%3Adesc&filter.category-1=deco&filter.category-3=casaco&page=1",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/feminino",
+    "to": "/deco/feminino",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
