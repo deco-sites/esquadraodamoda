@@ -25,21 +25,16 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "You may also like",
+      "title": "Você pode gostar disso também",
       "products": {
-        "__resolveType": "shopify/loaders/ProductList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "sort": "",
-          "query": "a",
-          "count": 9
-        },
-        "filters": {
-          "tags": [],
-          "productTypes": [],
-          "productVendors": [],
-          "variantOptions": []
+          "count": 20,
+          "collection": "583"
         }
-      }
+      },
+      "cta": "Ver tudo"
     },
     {
       "__resolveType": "site/sections/Newsletter/Newsletter.tsx"

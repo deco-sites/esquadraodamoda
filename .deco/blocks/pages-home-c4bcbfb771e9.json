@@ -50,7 +50,7 @@
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "sort": "price:desc",
-          "count": 10,
+          "count": 20,
           "collection": "583"
         }
       }
