@@ -101,7 +101,7 @@
   },
   "/.deco/blocks/pages-category-7493d4326022.json": {
     "name": "Category",
-    "path": "/s",
+    "path": "/*",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
