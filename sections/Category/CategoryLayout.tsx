@@ -3,7 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import { useDevice } from "deco/hooks/useDevice.ts";
 import Section, {
   type Props as SectionHeaderProps,
-} from "../../components/ui/Section.tsx"; 
+} from "../../components/ui/Section.tsx";
 
 /** @titleBy label */
 export interface Item {
@@ -26,8 +26,8 @@ function Card({ image, href, label }: Item) {
             src={image}
             alt={label}
             width={800}
-            height={800} 
-            loading="lazy" 
+            height={800}
+            loading="lazy"
           />
         </div>
         {label && <span class="font-medium text-sm">{label}</span>}

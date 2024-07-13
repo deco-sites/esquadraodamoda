@@ -3,7 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import { useDevice } from "deco/hooks/useDevice.ts";
 import Section, {
   type Props as SectionHeaderProps,
-} from "../../components/ui/Section.tsx"; 
+} from "../../components/ui/Section.tsx";
 
 /** @titleBy label */
 export interface Item {
