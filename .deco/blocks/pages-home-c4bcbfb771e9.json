@@ -186,6 +186,7 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "teste",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
@@ -194,8 +195,7 @@
           "query": "lavadora",
           "count": 10
         }
-      },
-      "title": "teste"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
