@@ -9,10 +9,11 @@ import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/deco/vtex.ts";
 import * as $$$$$$$$$$$3 from "./apps/site.ts";
 import * as $$$0 from "./loaders/availableIcons.ts";
-import * as $$$1 from "./loaders/icons.ts";
-import * as $$$2 from "./loaders/minicart.ts";
-import * as $$$3 from "./loaders/user.ts";
-import * as $$$4 from "./loaders/wishlist.ts";
+import * as $$$1 from "./loaders/getPickupPointsByCep.ts";
+import * as $$$2 from "./loaders/icons.ts";
+import * as $$$3 from "./loaders/minicart.ts";
+import * as $$$4 from "./loaders/user.ts";
+import * as $$$5 from "./loaders/wishlist.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$2 from "./sections/Category/CategoryCard.tsx";
@@ -46,15 +47,17 @@ import * as $$$$$$29 from "./sections/Product/Wishlist.tsx";
 import * as $$$$$$30 from "./sections/Session.tsx";
 import * as $$$$$$31 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$32 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$33 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$33 from "./sections/StorePage.tsx";
+import * as $$$$$$34 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
     "site/loaders/availableIcons.ts": $$$0,
-    "site/loaders/icons.ts": $$$1,
-    "site/loaders/minicart.ts": $$$2,
-    "site/loaders/user.ts": $$$3,
-    "site/loaders/wishlist.ts": $$$4,
+    "site/loaders/getPickupPointsByCep.ts": $$$1,
+    "site/loaders/icons.ts": $$$2,
+    "site/loaders/minicart.ts": $$$3,
+    "site/loaders/user.ts": $$$4,
+    "site/loaders/wishlist.ts": $$$5,
   },
   "sections": {
     "site/sections/Animation/Animation.tsx": $$$$$$0,
@@ -90,7 +93,8 @@ const manifest = {
     "site/sections/Session.tsx": $$$$$$30,
     "site/sections/Social/InstagramPosts.tsx": $$$$$$31,
     "site/sections/Social/WhatsApp.tsx": $$$$$$32,
-    "site/sections/Theme/Theme.tsx": $$$$$$33,
+    "site/sections/StorePage.tsx": $$$$$$33,
+    "site/sections/Theme/Theme.tsx": $$$$$$34,
   },
   "actions": {
     "site/actions/minicart/submit.ts": $$$$$$$$$0,
