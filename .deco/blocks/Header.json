@@ -114,7 +114,11 @@
     },
     {
       "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/7acb711a-84bf-4f3f-9742-152cd5938ada",
-      "label": "<p>Meus<br><strong>Pedidos</strong></p>"
+      "label": "<p>Meus<br><strong>Pedidos</strong></p>",
+      "href": "/"
     }
-  ]
+  ],
+  "minicart": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/7f60fd98-faef-460c-a074-5909f1c79a40"
+  }
 }

@@ -135,7 +135,7 @@ export default function CategoryGridBanner({
   return (
     <section class="w-full  md:pl-2 mx-auto md:pr-[42px]">
       <div
-        class={` sm:px-4 sm:py-2 grid  grid-flow-row-dense  gap-4 md:gap-4  ${
+        class={` container sm:px-4 sm:py-2 grid  grid-flow-row-dense  gap-4 md:gap-4  ${
           MOBILE_COLUMNS[itemsPerLine.mobile ?? 2]
         } ${DESKTOP_COLUMNS[itemsPerLine.desktop ?? 4]}`}
       >

@@ -18,7 +18,7 @@ import {
   HEADER_HEIGHT_MOBILE,
   NAVBAR_HEIGHT_MOBILE,
   SEARCHBAR_DRAWER_ID,
-  SEARCHBAR_POPUP_ID,
+  SEARCHBAR_POPUP_ID, 
   SIDEMENU_CONTAINER_ID,
   SIDEMENU_DRAWER_ID,
 } from "../../constants.ts";
@@ -35,6 +35,10 @@ export interface HiperlinksProps {
   /** @format rich-text */
   label: string;
   href?: string;
+}
+
+export interface MinicartProps {
+  src: ImageWidget;
 }
 
 export interface SectionProps {
@@ -55,6 +59,9 @@ export interface SectionProps {
   /** @title Logo */
   logo: Logo;
 
+  /** @title Minicart Icon */ 
+  minicart: MinicartProps;
+
   /**
    * @title Hiperlinks
    * @description Hiperlinks configuration
@@ -68,7 +75,7 @@ export interface SectionProps {
 type Props = Omit<SectionProps, "alert" | "variant">;
 
 const Desktop = (
-  { navItems, logo, searchbar, hiperlinks }: Props,
+  { navItems, logo, searchbar, hiperlinks, minicart }: Props,
 ) => (
   <>
     <Modal id={SEARCHBAR_POPUP_ID}>
@@ -81,7 +88,7 @@ const Desktop = (
     </Modal>
 
     <div class="flex flex-col gap-4 pt-5 container border-b border-gray-300">
-      <div class="grid grid-cols-6 place-items-center">
+      <div class="flex gap-8 items-center justify-between place-items-center">
         <div class="place-self-start">
           <a href="/" aria-label="Store logo">
             <Image
@@ -95,7 +102,7 @@ const Desktop = (
 
         <label
           for={SEARCHBAR_POPUP_ID}
-          class="input input-bordered flex items-center gap-2 w-full col-span-2"
+          class="input input-bordered flex items-center gap-2 w-2/3 "
           aria-label="search icon button"
         >
           <Icon id="search" />
@@ -104,8 +111,8 @@ const Desktop = (
           </span>
         </label>
 
-        <div class="flex gap-4 place-self-end col-span-2">
-          <ul class="flex gap-4">
+        <div class="flex gap-4 place-self-end">
+          <ul class="flex gap-4 w-max">
             {hiperlinks?.map(({ src, label, href }) => (
               <a class="flex gap-3 items-center" href={href}>
                 <Image
@@ -114,16 +121,14 @@ const Desktop = (
                   width={40}
                   height={40}
                 />
-                <div dangerouslySetInnerHTML={{ __html: label }}></div>
+                <div class="whitespace-nowrap" dangerouslySetInnerHTML={{ __html: label }}></div>
               </a>
             ))}
           </ul>
-        </div>
-
-        <div class="flex gap-4 place-self-end">
-          <Bag />
-        </div>
+          <Bag src={minicart.src}/>
+        </div> 
       </div>
+      
 
       <div class="flex justify-between items-center">
         <ul class="flex">
@@ -233,7 +238,7 @@ function Header({
           : HEADER_HEIGHT_MOBILE,
       }}
     >
-      <div class="bg-base-100 fixed w-full z-40">
+      <div class="bg-base-100 fixed w-full z-40"> 
         {alerts.length > 0 && <Alert alerts={alerts} />}
         {device === "desktop"
           ? <Desktop logo={logo} {...props} />
