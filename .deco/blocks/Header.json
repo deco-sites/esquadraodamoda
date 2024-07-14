@@ -20,6 +20,11 @@
             "name": "Casacos",
             "url": "/masculino/casaco"
           }
+        ],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/e9011836-da75-49fb-bbb2-90fe2b9c9d1c"
+          }
         ]
       },
       {
@@ -38,6 +43,11 @@
             "children": [],
             "name": "Camisetas",
             "url": "/feminino/camiseta"
+          }
+        ],
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/620e2998-c5e7-4234-9d7f-6ea1a8815db7"
           }
         ]
       },
@@ -70,7 +80,11 @@
             "url": "/acessorios/sholder-bag"
           }
         ],
-        "image": []
+        "image": [
+          {
+            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/51040e3d-af69-4daf-93a6-b95740c14d08"
+          }
+        ]
       }
     ]
   },
@@ -82,13 +96,25 @@
     }
   },
   "alerts": [
-    "<p>Get 10% off today: <strong>NEW10</strong></p>"
+    "<p>Get 10% off today: <strong>NEW10</strong></p>",
+    "<p>Frete Grátis acima de <strong>R$ 199,00</strong></p>"
   ],
   "variant": "initial",
   "logo": {
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/ed9f7e80-86a8-4b72-9809-2e4e2e5f0e53",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/14620c84-9d56-4d8d-8a93-4b5a62bef401",
     "alt": "Deco Storefront",
     "width": 160,
     "height": 40
-  }
+  },
+  "hiperlinks": [
+    {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/add7f225-23ac-4032-9257-c401306516f1",
+      "label": "<p>Encontre<br><strong>Nossas Lojas</strong></p>",
+      "href": "/nossas-lojas"
+    },
+    {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/7acb711a-84bf-4f3f-9742-152cd5938ada",
+      "label": "<p>Meus<br><strong>Pedidos</strong></p>"
+    }
+  ]
 }
