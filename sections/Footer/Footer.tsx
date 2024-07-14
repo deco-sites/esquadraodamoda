@@ -58,6 +58,25 @@ function Footer({
               </ul>
             </li>
           ))}
+          <li class="flex flex-col gap-4">
+            <form>
+              <h6 className="text-base font-semibold">Newsletter</h6>
+              <fieldset className="form-control w-80">
+                <label className="label">
+                  <span className="label-text">
+                    Digite seu e-mail e fique por dentro das novidades
+                  </span>
+                </label>
+                <div className="join">
+                  <input
+                    type="text"
+                    className="input input-bordered join-item"
+                  />
+                  <button className="btn btn-primary join-item">Assinar</button>
+                </div>
+              </fieldset>
+            </form>
+          </li>
         </ul>
 
         <div class="flex flex-col sm:flex-row gap-12 justify-between items-start sm:items-center">
@@ -106,7 +125,7 @@ function Footer({
 
           <div class="flex flex-nowrap items-center justify-between sm:justify-center gap-4">
             <div>
-              <img loading="lazy" src={logo} />
+              <img loading="lazy" className="w-48" src={logo} />
             </div>
             <span class="text-xs font-normal text-base-400">{trademark}</span>
           </div>

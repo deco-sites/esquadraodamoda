@@ -23,9 +23,9 @@ const onLoad = (id: string) =>
     counter.innerText = count > 9 ? "9+" : count.toString();
   });
 
-  export interface BagProps {
-    src?: string;
-  }
+export interface BagProps {
+  src?: string;
+}
 
 function Bag(
   { src }: BagProps,
@@ -45,21 +45,26 @@ function Bag(
         />
 
         <span class="px-0 btn btn-md btn-ghost no-animation flex flex-row items-center justify-start text-left hover:bg-transparent">
-          {src ? 
-          <Image
-              src={src}
-              alt={'Minicart'}
-              width={40}
-              height={40}
-            />
+          {src
+            ? (
+              <Image
+                src={src}
+                alt={"Minicart"}
+                width={40}
+                height={40}
+              />
+            )
             : <Icon id="shopping_bag" />}
 
-            <p class="text-base font-normal">Meu <br></br><strong>Carrinho</strong></p>
+          <p class="text-base font-normal">
+            Meu <br></br>
+            <strong>Carrinho</strong>
+          </p>
         </span>
       </label>
       <script
         type="module"
-        dangerouslySetInnerHTML={{ __html: useScript(onLoad, id) }} 
+        dangerouslySetInnerHTML={{ __html: useScript(onLoad, id) }}
       />
     </>
   );

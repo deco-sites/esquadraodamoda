@@ -18,7 +18,7 @@ import {
   HEADER_HEIGHT_MOBILE,
   NAVBAR_HEIGHT_MOBILE,
   SEARCHBAR_DRAWER_ID,
-  SEARCHBAR_POPUP_ID, 
+  SEARCHBAR_POPUP_ID,
   SIDEMENU_CONTAINER_ID,
   SIDEMENU_DRAWER_ID,
 } from "../../constants.ts";
@@ -59,7 +59,7 @@ export interface SectionProps {
   /** @title Logo */
   logo: Logo;
 
-  /** @title Minicart Icon */ 
+  /** @title Minicart Icon */
   minicart: MinicartProps;
 
   /**
@@ -121,14 +121,17 @@ const Desktop = (
                   width={40}
                   height={40}
                 />
-                <div class="whitespace-nowrap" dangerouslySetInnerHTML={{ __html: label }}></div>
+                <div
+                  class="whitespace-nowrap"
+                  dangerouslySetInnerHTML={{ __html: label }}
+                >
+                </div>
               </a>
             ))}
           </ul>
-          <Bag src={minicart.src}/>
-        </div> 
+          <Bag src={minicart.src} />
+        </div>
       </div>
-      
 
       <div class="flex justify-between items-center">
         <ul class="flex">
@@ -238,7 +241,7 @@ function Header({
           : HEADER_HEIGHT_MOBILE,
       }}
     >
-      <div class="bg-base-100 fixed w-full z-40"> 
+      <div class="bg-base-100 fixed w-full z-40">
         {alerts.length > 0 && <Alert alerts={alerts} />}
         {device === "desktop"
           ? <Desktop logo={logo} {...props} />
