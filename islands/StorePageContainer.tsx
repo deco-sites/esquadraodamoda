@@ -71,7 +71,7 @@ export default function StorePageContainer(props: StorePageContainerProps) {
               <Source
                 media="(max-width: 767px)"
                 src={props.image.mobile ??
-                  "https://bawclothing.vteximg.com.br/arquivos/lojasbawclothingmob.png"}
+                  "/#"}
                 width={370}
                 height={236}
                 alt={props.image.alt}
@@ -79,14 +79,14 @@ export default function StorePageContainer(props: StorePageContainerProps) {
               <Source
                 media="(min-width: 768px)"
                 src={props.image.desktop ??
-                  "https://bawclothing.vteximg.com.br/arquivos/lojasbawclothing.png"}
+                  "/#"}
                 width={471}
                 height={625}
                 alt={props.image.alt}
               />
               <img
                 src={props.image.desktop ??
-                  "https://bawclothing.vteximg.com.br/arquivos/lojasbawclothing.png"}
+                  "/#"}
                 alt={props.image.alt}
                 width={471}
                 height={625}
