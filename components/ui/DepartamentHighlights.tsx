@@ -62,7 +62,7 @@ function Highlights({ highlights = [], title, interval }: Props) {
         <span class="font-medium text-2xl">{title}</span>
       </h2>
 
-      <div class=" hidden lg:grid lg:grid-cols-1 lg:grid-cols-3 lg:gap-16 lg:px-10 ">
+      <div class=" container hidden lg:grid lg:grid-cols-1 lg:grid-cols-3 lg:gap-16 ">
         {highlights.map(({ href, src, alt, buttonText }) => (
           <div class="bg-[#eaeaea]">
             <a href={href} class="bg-[#eaeaea] group">

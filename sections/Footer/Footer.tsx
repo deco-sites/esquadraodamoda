@@ -59,16 +59,19 @@ function Footer({
             </li>
           ))}
           <li class="flex flex-col gap-4">
-          <form>
+            <form>
               <h6 className="text-base font-semibold">Newsletter</h6>
               <fieldset className="form-control w-80">
                 <label className="label">
-                  <span className="label-text">Digite seu e-mail e fique por dentro das novidades</span>
+                  <span className="label-text">
+                    Digite seu e-mail e fique por dentro das novidades
+                  </span>
                 </label>
                 <div className="join">
                   <input
                     type="text"
-                    className="input input-bordered join-item" />
+                    className="input input-bordered join-item"
+                  />
                   <button className="btn btn-primary join-item">Assinar</button>
                 </div>
               </fieldset>

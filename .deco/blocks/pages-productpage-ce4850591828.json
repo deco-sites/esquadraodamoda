@@ -24,6 +24,25 @@
       }
     },
     {
+      "__resolveType": "site/sections/Product/ProductSpecification.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/136a5dc1-ade3-40ea-93c6-bdccbde9f9b6",
+      "items": [
+        {
+          "label": "Moletom TechFit Ironman",
+          "description": "Explore o Moletom TechFit, onde a inovação encontra o conforto. Projetado com tecido tecnológico que se regenra perfeitamente  após danos, oferecendo liberdade de movimento e durabilidade incomparável. Ideal para atividades físicas ou para relaxar com estilo."
+        },
+        {
+          "label": "Moletom ThermoFlex",
+          "description": "Descubra o Moletom ThermoFlex, a escolha perfeita para manter-se aquecido sem abrir mão da leveza. Nosso tecido de alta tecnologia regula a temperatura corporal, garantindo conforto térmico em todas as condições climáticas. Seja para esportes ao ar livre ou uso diário, o ThermoFlex é sua melhor opção."
+        },
+        {
+          "label": "Moletom EcoDry",
+          "description": "Apresentamos o Moletom EcoDry, um tecido inovador feito a partir de materiais reciclados que não só protege o meio ambiente, mas também oferece excelente controle de umidade. Fique seco e confortável durante todo o dia, enquanto apoia práticas de produção sustentáveis."
+        }
+      ],
+      "title": "Tecologia Starks"
+    },
+    {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "title": "Você pode gostar disso também",
       "products": {
