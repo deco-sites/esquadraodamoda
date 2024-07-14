@@ -80,6 +80,33 @@
       }
     },
     {
+      "__resolveType": "site/sections/Category/CategoryCard.tsx",
+      "items": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/4e608df2-5bf1-472a-bded-f2e889e86fc6",
+          "title": "Moleton",
+          "button": "Ver todos",
+          "href": "/",
+          "description": "Veja nossa coleção de inverno",
+          "label": "Masculino"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/2bc2bb0c-7d1d-4614-b753-761b31811b7d",
+          "href": "/",
+          "title": "Mulheres",
+          "button": "Ver todos",
+          "label": "Feminino"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a0fd6bf1-ab2d-4873-93c3-fd3a3611fb73",
+          "href": "/",
+          "title": "Acessorio",
+          "label": "Acessórios",
+          "button": "Ver todos"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Category/CategoryGrid.tsx",
       "title": "Departamentos",
       "cta": "/deco",
