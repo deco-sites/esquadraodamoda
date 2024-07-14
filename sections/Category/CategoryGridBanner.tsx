@@ -133,7 +133,7 @@ export default function CategoryGridBanner({
   device,
 }: ReturnType<typeof loader>) {
   return (
-    <section class="w-full  md:pl-2 mx-auto md:pr-[42px]">
+    <section class="w-full  md:pl-2 mx-auto">
       <div
         class={` container sm:px-4 sm:py-2 grid  grid-flow-row-dense  gap-4 md:gap-4  ${
           MOBILE_COLUMNS[itemsPerLine.mobile ?? 2]

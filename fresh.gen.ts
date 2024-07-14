@@ -4,6 +4,10 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
+import * as $StoreMap from "./islands/StoreMap.tsx";
+import * as $StorePageCep from "./islands/StorePageCep.tsx";
+import * as $StorePageContainer from "./islands/StorePageContainer.tsx";
+import * as $StorePageMapList from "./islands/StorePageMapList.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -12,6 +16,10 @@ const manifest = {
   },
   islands: {
     "./islands/SliderJS.tsx": $SliderJS,
+    "./islands/StoreMap.tsx": $StoreMap,
+    "./islands/StorePageCep.tsx": $StorePageCep,
+    "./islands/StorePageContainer.tsx": $StorePageContainer,
+    "./islands/StorePageMapList.tsx": $StorePageMapList,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

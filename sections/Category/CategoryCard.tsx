@@ -25,7 +25,7 @@ function Card({ image, href, description, label, button }: Item) {
     <a href={href} class="card bg-base-50 image-full w-96 shadow-xl">
       <figure>
         <Image
-          class="w-full h-auto" 
+          class="w-full h-auto"
           src={image}
           alt={label}
           width={100}
