@@ -230,5 +230,13 @@
   "/.deco/blocks/Teste.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Category/CategoryGridBanner.tsx"
+  },
+  "/.deco/blocks/Mini.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/minicart.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCategory%2FCategoryCard.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Category/CategoryCard.tsx"
   }
 }
