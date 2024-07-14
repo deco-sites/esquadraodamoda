@@ -7,7 +7,7 @@ import { FnContext } from "deco/mod.ts";
 */
 export interface GridBanner {
   srcMobile: LiveImage;
-  srcDesktop?:  LiveImage;
+  srcDesktop?: LiveImage;
   /**
    * @description Image alt text
    */
