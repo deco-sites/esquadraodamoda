@@ -44,19 +44,26 @@
       "preload": true
     },
     {
-      "__resolveType": "site/sections/Category/CategoryLayout.tsx",
-      "items": [
+      "__resolveType": "site/sections/DepartamentHighlights.tsx",
+      "title": "Departamentos",
+      "highlights": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/cd9b72ba-6ebb-4787-ac37-47c26f557cda",
-          "href": "/"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/00bcc6e1-7f54-4544-b36e-784882f292da",
+          "alt": "Acessórios",
+          "href": "/acessorios",
+          "buttonText": "Comprar"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/bf051510-4791-40b0-87e6-bb0691f62a65",
-          "href": "/"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/00e27a94-8df5-47d2-bb1b-58d983002aa7",
+          "href": "/casacos",
+          "buttonText": "Comprar",
+          "alt": "Casacos"
         },
         {
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/d41c24fe-96e9-4293-8866-71a0490af722"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/fa05897b-407f-4283-8933-42ee7313e3a9",
+          "alt": "Calças",
+          "href": "/calcas",
+          "buttonText": "Comprar"
         }
       ]
     },
