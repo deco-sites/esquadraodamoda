@@ -135,6 +135,36 @@
       }
     },
     {
+      "__resolveType": "site/sections/Category/Tipbar.tsx",
+      "items": [
+        {
+          "label": "Forma de Pagamento",
+          "description": "Pagamento via pix tem compra aprovada em minutos.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/7cc95de7-4099-4f9b-b5c9-3d1d89d28a1e"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/5549fc70-5571-4b10-9892-550dbae5299d",
+          "label": "Devolução",
+          "description": "Devolução garantida em 7 dias após a compra realizada"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/42bcb610-d3e2-4248-ac4a-eb0fed101108",
+          "label": "Desconto",
+          "description": "Desconto nas cmopras acima de R$ 99"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/c4ef3548-8b75-47c4-8f63-e08688ecdee4",
+          "label": "Cupom",
+          "description": "Ganhe 15% de desconto com PRIMEIRA15"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/09299767-6abf-4996-9eb6-48a349d882ac",
+          "label": "Cashback",
+          "description": "Compre e receba 15% de cashback nas suas compras."
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
       "label": "Sign up",
       "placeholder": "Email address",

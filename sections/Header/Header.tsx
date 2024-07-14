@@ -30,6 +30,13 @@ export interface Logo {
   height?: number;
 }
 
+export interface HiperlinksProps {
+  src: ImageWidget;
+  /** @format rich-text */
+  label: string;
+  href?: string;
+}
+
 export interface SectionProps {
   alerts?: HTMLWidget[];
 
@@ -48,6 +55,12 @@ export interface SectionProps {
   /** @title Logo */
   logo: Logo;
 
+  /**
+   * @title Hiperlinks
+   * @description Hiperlinks configuration
+   */
+  hiperlinks?: HiperlinksProps[];
+
   /** @hide true */
   variant?: "initial" | "menu";
 }
@@ -55,7 +68,7 @@ export interface SectionProps {
 type Props = Omit<SectionProps, "alert" | "variant">;
 
 const Desktop = (
-  { navItems, logo, searchbar }: Props,
+  { navItems, logo, searchbar, hiperlinks }: Props,
 ) => (
   <>
     <Modal id={SEARCHBAR_POPUP_ID}>
@@ -68,7 +81,7 @@ const Desktop = (
     </Modal>
 
     <div class="flex flex-col gap-4 pt-5 container border-b border-gray-300">
-      <div class="grid grid-cols-3 place-items-center">
+      <div class="grid grid-cols-6 place-items-center">
         <div class="place-self-start">
           <a href="/" aria-label="Store logo">
             <Image
@@ -82,7 +95,7 @@ const Desktop = (
 
         <label
           for={SEARCHBAR_POPUP_ID}
-          class="input input-bordered flex items-center gap-2 w-full"
+          class="input input-bordered flex items-center gap-2 w-full col-span-2"
           aria-label="search icon button"
         >
           <Icon id="search" />
@@ -90,6 +103,22 @@ const Desktop = (
             Search products, brands...
           </span>
         </label>
+
+        <div class="flex gap-4 place-self-end col-span-2">
+          <ul class="flex gap-4">
+            {hiperlinks?.map(({ src, label, href }) => (
+              <a class="flex gap-3 items-center" href={href}>
+                <Image
+                  class="h-fit aspect-square"
+                  src={src}
+                  width={40}
+                  height={40}
+                />
+                <div dangerouslySetInnerHTML={{ __html: label }}></div>
+              </a>
+            ))}
+          </ul>
+        </div>
 
         <div class="flex gap-4 place-self-end">
           <Bag />

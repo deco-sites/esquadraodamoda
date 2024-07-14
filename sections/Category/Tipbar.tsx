@@ -10,45 +10,32 @@ import { clx } from "../../sdk/clx.ts";
 /** @titleBy label */
 export interface Item {
   image: ImageWidget;
-  href: string;
   label?: string;
   description?: string;
-  button?: string;
 }
 
 export interface Props extends SectionHeaderProps {
   items: Item[];
 }
 
-function Card({ image, href, description, label, button }: Item) {
+function Card({ image, description, label }: Item) {
   return (
-    <a href={href} class="card bg-base-50 image-full w-96 shadow-xl">
-      <figure>
-        <Image
-          class="w-full h-auto aspect-video"
-          src={image}
-          alt={label}
-          width={100}
-          height={100}
-          loading="lazy"
-        />
-      </figure>
-      <div className="card-body">
-        {label && <h2 class="card-title text-2xl">{label}</h2>}
-        {description && <p class="text-lg">{description}</p>}
-        {button
-          ? (
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">{button}</button>
-            </div>
-          )
-          : <></>}
-      </div>
-    </a>
+    <div class="flex flex-col items-center gap-4">
+      <Image
+        class=""
+        src={image}
+        alt={label}
+        width={40}
+        height={40}
+        loading="lazy"
+      />
+      {label && <h2 class="card-title text-2xl text-center">{label}</h2>}
+      {description && <p class="text-lg text-center">{description}</p>}
+    </div>
   );
 }
 
-function CategoryCard({ title, cta, items = [] }: Props) {
+function Tipbar({ title, cta, items = [] }: Props) {
   const device = useDevice();
 
   return (
@@ -57,7 +44,7 @@ function CategoryCard({ title, cta, items = [] }: Props) {
 
       {device === "desktop"
         ? (
-          <div class="grid grid-cols-3 gap-10">
+          <div class="grid grid-cols-5 gap-10">
             {items?.map((i) => <Card {...i} />)}
           </div>
         )
@@ -81,4 +68,4 @@ function CategoryCard({ title, cta, items = [] }: Props) {
   );
 }
 
-export default CategoryCard;
+export default Tipbar;
