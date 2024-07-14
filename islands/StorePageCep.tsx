@@ -35,7 +35,7 @@ const handleCepSend = async (storeCep: string): Promise<StoreLocation[]> => {
 };
 
 const formatCep = (cep: string) => {
-  cep = cep.replace(/\D/g, '');
+  cep = cep.replace(/\D/g, "");
   if (cep.length > 8) cep = cep.substring(0, 8);
   if (cep.length > 5) cep = `${cep.substring(0, 5)}-${cep.substring(5)}`;
   return cep;

@@ -211,13 +211,13 @@ export default function StoreMap(
           lat: store.address.geoCoordinates[1],
           lng: store.address.geoCoordinates[0],
         };
-        
+
         const marker = new google.maps.Marker({
           position,
           map: mapInstanceRef.current,
           title: store.name,
           icon: {
-            url: '//bawclothing.vteximg.com.br/arquivos/bmarker.png',
+            url: "//bawclothing.vteximg.com.br/arquivos/bmarker.png",
             scaledSize: new google.maps.Size(24, 30),
           },
           animation: google.maps.Animation.BOUNCE,

@@ -80,7 +80,7 @@ const loader = async ({ storeCep }: Props): Promise<StoreLocation[]> => {
       return [];
     }
     const data = response.items;
-    
+
     return data.map((item: CEPStoreLocation) => ({
       id: item.pickupPoint.address.addressId,
       name: item.pickupPoint.friendlyName,

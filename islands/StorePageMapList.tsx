@@ -46,7 +46,8 @@ export default function StorePageMapList(
         ? (
           <>
             <h1 className="text-3xl font-bold mb-4">
-              {items.length} loja{items.length > 1 ? "s" : ""} próxima a {items[0].address.city}:
+              {items.length} loja{items.length > 1 ? "s" : ""} próxima a{" "}
+              {items[0].address.city}:
             </h1>
             <h1 className="text-xl font-bold mb-4">Resultados disponíveis:</h1>
             <p className="mb-4">

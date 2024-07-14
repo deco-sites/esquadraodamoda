@@ -34,7 +34,7 @@ export default function StorePageContainer(props: StorePageContainerProps) {
     <div class="container mx-auto p-6">
       {noStoresFoundSignal.value && (
         <div class="bg-red-100 text-red-700 p-4 mb-4 rounded">
-          Nenhuma loja encontrada. 
+          Nenhuma loja encontrada.
         </div>
       )}
       <div
@@ -99,7 +99,6 @@ export default function StorePageContainer(props: StorePageContainerProps) {
               <h1 class="text-3xl font-black mb-4 text-left md:text-left">
                 Encontre uma loja perto de você!
               </h1>
-             
             </div>
 
             <StorePageCep
@@ -107,7 +106,6 @@ export default function StorePageContainer(props: StorePageContainerProps) {
               showMapSignal={showMapSignal}
               noStoresFoundSignal={noStoresFoundSignal}
             />
-            
           </div>
         </div>
       </div>
