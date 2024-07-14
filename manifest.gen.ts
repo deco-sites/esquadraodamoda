@@ -15,14 +15,14 @@ import * as $$$3 from "./loaders/user.ts";
 import * as $$$4 from "./loaders/wishlist.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/Category/CategoryBanner.tsx";
-import * as $$$$$$2 from "./sections/Category/CategoryCard.tsx";
-import * as $$$$$$3 from "./sections/Category/CategoryGrid.tsx";
-import * as $$$$$$4 from "./sections/Category/CategoryLayout.tsx";
-import * as $$$$$$5 from "./sections/Component.tsx";
-import * as $$$$$$6 from "./sections/Content/Faq.tsx";
-import * as $$$$$$7 from "./sections/Content/Hero.tsx";
-import * as $$$$$$8 from "./sections/Content/Intro.tsx";
-import * as $$$$$$9 from "./sections/Content/Logos.tsx";
+import * as $$$$$$2 from "./sections/Category/CategoryGrid.tsx";
+import * as $$$$$$3 from "./sections/Category/CategoryLayout.tsx";
+import * as $$$$$$4 from "./sections/Component.tsx";
+import * as $$$$$$5 from "./sections/Content/Faq.tsx";
+import * as $$$$$$6 from "./sections/Content/Hero.tsx";
+import * as $$$$$$7 from "./sections/Content/Intro.tsx";
+import * as $$$$$$8 from "./sections/Content/Logos.tsx";
+import * as $$$$$$9 from "./sections/DepartamentHighlights.tsx";
 import * as $$$$$$10 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$11 from "./sections/Header/Header.tsx";
 import * as $$$$$$12 from "./sections/Images/Banner.tsx";
@@ -55,14 +55,14 @@ const manifest = {
   "sections": {
     "site/sections/Animation/Animation.tsx": $$$$$$0,
     "site/sections/Category/CategoryBanner.tsx": $$$$$$1,
-    "site/sections/Category/CategoryCard.tsx": $$$$$$2,
-    "site/sections/Category/CategoryGrid.tsx": $$$$$$3,
-    "site/sections/Category/CategoryLayout.tsx": $$$$$$4,
-    "site/sections/Component.tsx": $$$$$$5,
-    "site/sections/Content/Faq.tsx": $$$$$$6,
-    "site/sections/Content/Hero.tsx": $$$$$$7,
-    "site/sections/Content/Intro.tsx": $$$$$$8,
-    "site/sections/Content/Logos.tsx": $$$$$$9,
+    "site/sections/Category/CategoryGrid.tsx": $$$$$$2,
+    "site/sections/Category/CategoryLayout.tsx": $$$$$$3,
+    "site/sections/Component.tsx": $$$$$$4,
+    "site/sections/Content/Faq.tsx": $$$$$$5,
+    "site/sections/Content/Hero.tsx": $$$$$$6,
+    "site/sections/Content/Intro.tsx": $$$$$$7,
+    "site/sections/Content/Logos.tsx": $$$$$$8,
+    "site/sections/DepartamentHighlights.tsx": $$$$$$9,
     "site/sections/Footer/Footer.tsx": $$$$$$10,
     "site/sections/Header/Header.tsx": $$$$$$11,
     "site/sections/Images/Banner.tsx": $$$$$$12,
