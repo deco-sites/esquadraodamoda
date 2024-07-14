@@ -27,7 +27,7 @@ export default function ProductSpecification(
         )}
       >
         <div class="w-full md:w-1/2">
-          <Image
+          <Image 
             class="w-full h-auto rounded-2xl"
             src={image}
             width={600}

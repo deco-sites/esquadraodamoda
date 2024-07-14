@@ -5,53 +5,7 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "site/sections/Category/CategoryGridBanner.tsx",
-      "itemsPerLine": {
-        "desktop": 2,
-        "mobile": 1
-      },
-      "borderRadius": {
-        "mobile": "none",
-        "desktop": "none"
-      },
-      "banners": [
-        {
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a10ba348-60e9-4cbe-b5b9-3d25bad19d2b",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a01d4b10-c556-4ee3-9f0e-908361a4f301",
-          "alt": "Caps",
-          "href": "/#",
-          "size_cols": 1,
-          "size_rows": 1,
-          "shrink": true
-        },
-        {
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/c13f4dba-ea44-4bb6-b3f5-c078973f8f1b",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/28cf7c30-2fa2-44b7-a56c-b1f2c7cea155",
-          "alt": "mans",
-          "href": "/#",
-          "size_cols": 1,
-          "size_rows": 2,
-          "shrink": true
-        },
-        {
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/c13f4dba-ea44-4bb6-b3f5-c078973f8f1b",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/28cf7c30-2fa2-44b7-a56c-b1f2c7cea155",
-          "alt": "mans",
-          "href": "/#",
-          "size_cols": 1,
-          "size_rows": 2,
-          "shrink": true
-        },
-        {
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/ccfbf655-1246-4486-b93c-f706477555b5",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/dac10459-be31-4621-81c3-6bf88ef13248",
-          "alt": "ovelha",
-          "href": "/masculino/camiseta",
-          "size_cols": 1,
-          "size_rows": 1
-        }
-      ],
-      "title": "Mosaico"
+      "__resolveType": "Teste"
     },
     {
       "__resolveType": "site/sections/DepartamentHighlights.tsx",
@@ -117,31 +71,6 @@
       ]
     },
     {
-<<<<<<< HEAD
-=======
-      "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-      "items": [
-        {
-          "label": "Homens ",
-          "href": "/masculino",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/38c33c9f-14a1-4048-973b-dc2a75caf1fa"
-        },
-        {
-          "href": "/feminino",
-          "label": "Mulheres",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/f6bea2b8-b248-4b42-9246-6e924a0acc8b"
-        },
-        {
-          "href": "/acessorios",
-          "label": "Acessorios",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/92129655-fe40-4b29-8fdb-e7f71e67a5d1"
-        }
-      ],
-      "title": "Departamentos",
-      "cta": "/deco"
-    },
-    {
->>>>>>> main
       "__resolveType": "site/sections/Images/Banner.tsx",
       "title": "Register and Save Big!",
       "cta": {
