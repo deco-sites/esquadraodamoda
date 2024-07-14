@@ -11,7 +11,8 @@
     "std/": "https://deno.land/std@0.190.0/",
     "daisyui": "npm:daisyui@4.6.0",
     "$store/": "./",
-    "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.24.2/"
+    "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.24.2/",
+    "deco-sites/esquadraodamoda/": "./"
   },
   "tasks": {
     "start": "deno task bundle && deno run -A --env --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task dev",

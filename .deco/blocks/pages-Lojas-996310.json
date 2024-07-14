@@ -1,0 +1,29 @@
+{
+  "name": "Lojas",
+  "path": "/lojas",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/StorePage.tsx",
+      "image": {
+        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/25fe292c-dff5-4b98-b86c-1bdc52189b4e",
+        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/5729a4dd-a78b-4a2c-af7d-d9535ca582e4",
+        "alt": "teste"
+      },
+      "apiKeyMaps": {
+        "__resolveType": "website/loaders/secret.ts",
+        "encrypted": "ac828d4f20653b8979b9d45e285ff794290f2224bd8599da65400efa0b02ac22e42ff0c4ce0c70fb6772f062ce58354d",
+        "name": "apiKeyMaps"
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

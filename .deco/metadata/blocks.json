@@ -226,5 +226,15 @@
   "/.deco/blocks/redirects-sholder-ba-576943.json": {
     "blockType": "loaders",
     "__resolveType": "website/loaders/redirect.ts"
+  },
+  "/.deco/blocks/pages-Lojas-996310.json": {
+    "name": "Lojas",
+    "path": "/lojas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FStorePage.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/StorePage.tsx"
   }
 }
