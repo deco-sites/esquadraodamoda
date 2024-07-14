@@ -20,29 +20,31 @@ export interface Props extends SectionHeaderProps {
   items: Item[];
 }
 
-function Card({ image, href, description, label,button }: Item) {
+function Card({ image, href, description, label, button }: Item) {
   return (
-
-      <a href={href} class="card bg-base-50 image-full w-96 shadow-xl">
-        <figure>
-          <Image
-              class="w-full h-auto aspect-video"
-              src={image} 
-              alt={label}
-              width={100}
-              height={100} 
-              loading="lazy"
-            />
-        </figure>
-        <div className="card-body">
-          {label && <h2 class="card-title text-2xl">{label}</h2>}
-          {description && <p class="text-lg">{description}</p>}
-          {button ? <div className="card-actions justify-end">
-            <button className="btn btn-primary">{button}</button>
-          </div> : <></>}
-          
-        </div>
-      </a>
+    <a href={href} class="card bg-base-50 image-full w-96 shadow-xl">
+      <figure>
+        <Image
+          class="w-full h-auto aspect-video"
+          src={image}
+          alt={label}
+          width={100}
+          height={100}
+          loading="lazy"
+        />
+      </figure>
+      <div className="card-body">
+        {label && <h2 class="card-title text-2xl">{label}</h2>}
+        {description && <p class="text-lg">{description}</p>}
+        {button
+          ? (
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">{button}</button>
+            </div>
+          )
+          : <></>}
+      </div>
+    </a>
   );
 }
 
