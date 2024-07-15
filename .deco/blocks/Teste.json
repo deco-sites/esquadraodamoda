@@ -1,7 +1,7 @@
 {
   "__resolveType": "site/sections/Category/CategoryGridBanner.tsx",
   "itemsPerLine": {
-    "desktop": 4,
+    "desktop": 2,
     "mobile": 1
   },
   "borderRadius": {
@@ -13,55 +13,38 @@
       "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a10ba348-60e9-4cbe-b5b9-3d25bad19d2b",
       "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a01d4b10-c556-4ee3-9f0e-908361a4f301",
       "alt": "Caps",
-      "href": "/#",
+      "href": "/acessorios/bone",
       "size_cols": 1,
       "size_rows": 1,
-      "shrink": true
+      "shrink": true,
+      "preload": true
     },
     {
       "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/c13f4dba-ea44-4bb6-b3f5-c078973f8f1b",
       "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/28cf7c30-2fa2-44b7-a56c-b1f2c7cea155",
       "alt": "mans",
-      "href": "/#",
+      "href": "/masculino",
       "size_cols": 1,
       "size_rows": 2,
-      "shrink": true
+      "shrink": true,
+      "preload": true
     },
     {
-      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/c13f4dba-ea44-4bb6-b3f5-c078973f8f1b",
-      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/28cf7c30-2fa2-44b7-a56c-b1f2c7cea155",
-      "alt": "mans",
-      "href": "/#",
+      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/3cf715b5-7b56-4bf2-853d-f890a2da7047",
+      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/a88a7da7-2450-4733-9dad-b7f20ff4cf2a",
+      "alt": "shirts",
+      "href": "/deco?sort=price%3Adesc&filter.category-1=deco&filter.category-3=camiseta&page=1",
       "size_cols": 1,
       "size_rows": 2,
-      "shrink": true
+      "shrink": true,
+      "preload": true
     },
     {
       "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/82a7c3cb-eb36-483b-b855-1e2900a5a435",
       "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/913ff2bc-e0df-4c7a-b38d-262bd5c1b3d6",
       "alt": "fenno",
-      "href": "/#",
+      "href": "/feminino",
       "size_cols": 1,
-      "size_rows": 1,
-      "preload": true,
-      "shrink": true
-    },
-    {
-      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/aa2ff2ae-a5e9-4148-b704-f39488a0a1b2",
-      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/24dcc5c6-e0a2-4d85-a658-4df64b9671a4",
-      "alt": "shirts",
-      "href": "/#",
-      "size_cols": 2,
-      "size_rows": 1,
-      "preload": true,
-      "shrink": true
-    },
-    {
-      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/aa2ff2ae-a5e9-4148-b704-f39488a0a1b2",
-      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11583/24dcc5c6-e0a2-4d85-a658-4df64b9671a4",
-      "alt": "shirts",
-      "href": "/#",
-      "size_cols": 2,
       "size_rows": 1,
       "preload": true,
       "shrink": true
